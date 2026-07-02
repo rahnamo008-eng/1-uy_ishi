@@ -21,3 +21,15 @@ def bolish(a, b):
     if b != 0:
         return a / b
     return "Nolga bo'lish mumkin emas!"
+
+def max_son(a, b):
+    return a if a > b else b
+
+def min_son(a, b):
+    return a if a < b else b
+
+def juftmi(a):
+    return a % 2 == 0
+
+def toqmi(a):
+    return a % 2 != 0
