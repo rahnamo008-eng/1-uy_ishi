@@ -33,3 +33,14 @@ def juftmi(a):
 
 def toqmi(a):
     return a % 2 != 0
+def katta_harf(matn):
+    return matn.upper()
+
+def kichik_harf(matn):
+    return matn.lower()
+
+def teskari(matn):
+    return matn[::-1]
+
+def uzunligi(matn):
+    return len(matn)
