@@ -70,3 +70,19 @@ def uzunligi_list(lst):
     for i in lst:
         element_soni += 1
     return element_soni
+def faktorial(n):
+    if n == 0 or n == 1:
+        return 1
+    p_kopaytma = 1
+    for i in range(1, n + 1):
+        p_kopaytma = p_kopaytma * i
+    return p_kopaytma
+
+def daraja(a, b):
+    return a ** b
+
+def abs_son(a):
+    if a < 0:
+        return -a
+    else:
+        return a
