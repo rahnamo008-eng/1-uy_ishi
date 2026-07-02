@@ -44,3 +44,29 @@ def teskari(matn):
 
 def uzunligi(matn):
     return len(matn)
+
+def yigindi_list(lst):
+    jami = 0
+    for son in lst:
+        jami += son
+    return jami
+
+def eng_katta(lst):
+    katta = lst[0]
+    for son in lst:
+        if son > katta:
+            katta = son
+    return katta
+
+def eng_kichik(lst):
+    kichik = lst[0]
+    for son in lst:
+        if son < kichik:
+            kichik = son
+    return kichik
+
+def uzunligi_list(lst):
+    element_soni = 0
+    for i in lst:
+        element_soni += 1
+    return element_soni
